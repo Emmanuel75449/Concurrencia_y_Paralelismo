@@ -50,8 +50,3 @@ espera su turno, se queda dando vueltas consumiendo CPU en lugar de
 dejar libre el procesador. Cuando pones más hilos que núcleos tiene tu
 máquina, todos se pelean por el CPU y el tiempo que se pierde
 coordinándose es mayor que el que se gana calculando.
-
-**En resumen:** Peterson está padre para entender cómo funciona la
-exclusión mutua, pero en la vida real es mejor usar semáforos o mutex
-que sí bloquean al hilo y liberan el CPU. Peterson es más un ejercicio
-académico que una herramienta práctica.
