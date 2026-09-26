@@ -21,7 +21,7 @@ la variable compartida `puntosDentro`.
 
 ![Gráfica de hilos vs tiempo](grafica_peterson.png)
 
-## ¿Cómo funciona Peterson? (versión fácil)
+## ¿Cómo funciona Peterson? 
 
 Imagínate que dos personas quieren entrar a un baño con una sola puerta.
 Para no entrar al mismo tiempo, hacen esto:
